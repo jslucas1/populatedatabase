@@ -28,7 +28,7 @@ namespace PopulateMovieDatabase
                 
                 var response = httpClient.PostAsync(new Uri(url), content).Result;
                 
-
+                Console.Writeline(response);
 
             }
         }
